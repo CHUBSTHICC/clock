@@ -5,14 +5,18 @@ body
 {
     background-color: black;
     font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .clock
 {
-    color: #20c20e;
+    color: #0ec2ad;
     font-size: 60px;
-    letter-spacing: 1px;
+    letter-spacing: -1px;
 }
